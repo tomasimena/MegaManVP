@@ -166,7 +166,16 @@ namespace MegaMan
             }
 
             //p2 so preden del p1 so leva strana
-         
+            else if (Vector.LineSegementsIntersect(new Vector(p1.positionHoodLeft.X, p1.positionHoodLeft.Y),
+                new Vector(p1.positionTrunkLeft.X, p1.positionTrunkLeft.Y),
+                new Vector(p2.positionHoodRight.X, p2.positionHoodRight.Y),
+                new Vector(p2.positionHoodLeft.X, p2.positionHoodLeft.Y), out outintersection,
+                p2.warriorWidth * 1.5))
+            {
+                p1.takeDamage(Warrior.sideDamage);
+                p2.takeDamage(Warrior.frontDamage);
+                imaHit = true;
+            }
 
             // p2 so preden del p1 so desna strana
             else if (Vector.LineSegementsIntersect(new Vector(p1.positionHoodRight.X, p1.positionHoodRight.Y),
@@ -227,7 +236,15 @@ namespace MegaMan
             }
 
             // p1 so preden del p2 od pozadi
-            
+            else if (Vector.LineSegementsIntersect(new Vector(p2.positionTrunkLeft.X, p2.positionTrunkLeft.Y),
+                new Vector(p2.positionTrunkRight.X, p2.positionTrunkRight.Y),
+                new Vector(p1.positionHoodRight.X, p1.positionHoodRight.Y),
+                new Vector(p1.positionHoodLeft.X, p1.positionHoodLeft.Y), out outintersection, p2.warriorHeight * 2))
+            {
+                p1.takeDamage(Warrior.frontDamage);
+                p2.takeDamage(Warrior.backDamage);
+                imaHit = true;
+            }
 
             //p1 pozadi so p2 desna strana
             else if (Vector.LineSegementsIntersect(new Vector(p2.positionHoodRight.X, p2.positionHoodRight.Y),
@@ -241,7 +258,15 @@ namespace MegaMan
             }
 
             //p1 pozadi so p2 leva strana
-         
+            else if (Vector.LineSegementsIntersect(new Vector(p2.positionHoodLeft.X, p2.positionHoodLeft.Y),
+              new Vector(p2.positionTrunkLeft.X, p2.positionTrunkLeft.Y),
+              new Vector(p1.positionTrunkRight.X, p1.positionTrunkRight.Y),
+              new Vector(p1.positionTrunkLeft.X, p1.positionTrunkLeft.Y), out outintersection, p2.warriorWidth * 1.5))
+            {
+                p1.takeDamage(Warrior.backDamage);
+                p2.takeDamage(Warrior.sideDamage);
+                imaHit = true;
+            }
 
             //p2 pozadi so p1 desna strana
             else if (Vector.LineSegementsIntersect(new Vector(p1.positionHoodRight.X, p1.positionHoodRight.Y),
