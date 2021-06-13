@@ -387,12 +387,133 @@ namespace MegaMan
 
         private void timer2_Tick(object sender, EventArgs e)
         {
-           
+            if (p2.isHit) {
+                p2.isHit = false;
+                timer2.Interval = 15;
+                boostedTimerPlayer2 = 0;
+            }
+            if (timer2.Interval == 15) {
+                boostedTimerPlayer2++;
+                if (boostedTimerPlayer2 == 500) {
+                    boostedTimerPlayer2 = 0;
+                    timer2.Interval = 20;
+                }
+            }
+            //Pridvizi go player 2
+            if (Left1)
+                p2.goLeft(this.Width, this.Height);
+            if (Right1)
+                p2.goRight(this.Width, this.Height);
+            if (Down1)
+                p2.goForward(this.Width, this.Height);
+            if (Up1)
+                p2.goBack(this.Width, this.Height);
+            for (int i = features.Count - 1; i >= 0; i--) {
+                {
+                    if (features[i].isHit(p2.positionHoodLeft) || features[i].isHit(p2.positionHoodRight) || features[i].isHit(p2.positionTrunkLeft) ||
+                        features[i].isHit(p2.positionTrunkRight)) {// 1 = heart; 2 = bomb; 3 = shield
+                        int type = features[i].type;
+                        if (type == 1) {
+                            p2.heal();
+                            int healthP2 = p2.Health;
+                            if (healthP2 > 50)
+                                pbPlayer2.ForeColor = Color.Green;
+                            else if (healthP2 > 20)
+                                pbPlayer2.ForeColor = Color.Yellow;
+                            else
+                                pbPlayer2.ForeColor = Color.Red;
+                            if (healthP2 != 0)
+                                pbPlayer2.Value = healthP2;
+                        }
+                        else if (type == 2) {
+                            //p2.isBoosted = true;
+                            p2.Health -= 15;
+                        }
+                        else {
+                            p2.isProtected = true;
+                            timeProtectedPlayer2 = 0;
+                        }
+                        features.RemoveAt(i);
+                    }
+                }
+            }
         }
 
         private void timer3_Tick(object sender, EventArgs e)
         {
-           
+            timeFornewItem++;
+            if (p2.isProtected) {
+                timeProtectedPlayer2++;
+                if (timeProtectedPlayer2 == 10) {
+                    timeProtectedPlayer2 = 0;
+                    p2.isProtected = false;
+                }
+            }
+
+            if (p1.isProtected) {
+                timeProtectedPlayer1++;
+                if (timeProtectedPlayer1 == 10) {
+                    timeProtectedPlayer1 = 0;
+                    p1.isProtected = false;
+                }
+            }
+
+
+            if (timeFornewItem == 5) {
+                timeFornewItem = 0;
+                int chosen = rnd.Next(1, 4);
+                if (features.Count < 2) {
+                    if (chosen == 1) {
+                        Point location = new Point(rnd.Next(60, this.Width - 60), rnd.Next(80, this.Height - 80));
+                        Bitmap img = new Bitmap(@"..\..\..\ProbaFeatures\bomb.png");
+                        Feature feat = new Feature(img, 2, location);
+                        bool notExist = true;
+                        foreach (Feature f in features) {
+                            if (f.isTouching(feat)) {
+                                notExist = false;
+                                break;
+                            }
+                        }
+                        if (notExist) {
+                            features.Add(feat);
+                        }
+                        Invalidate();
+                    }
+                    else if (chosen == 2) {
+                        Point location = new Point(rnd.Next(60, this.Width - 60), rnd.Next(60, this.Height - 60));
+                        Bitmap img = new Bitmap(@"..\..\..\ProbaFeatures\heart.png");
+
+                        Feature feat = new Feature(img, 1, location);
+                        bool notExist = true;
+                        foreach (Feature f in features) {
+                            if (f.isTouching(feat)) {
+                                notExist = false;
+                                break;
+                            }
+                        }
+                        if (notExist) {
+                            features.Add(feat);
+                        }
+                        Invalidate();
+                    }
+                    else {
+                        Point location = new Point(rnd.Next(60, this.Width - 60), rnd.Next(60, this.Height - 60));
+                        Bitmap img = new Bitmap(@"..\..\..\ProbaFeatures\shield3.png");
+                        Feature feat = new Feature(img, 3, location);
+                        bool notExist = true;
+                        foreach (Feature f in features) {
+                            if (f.isTouching(feat)) {
+                                notExist = false;
+                                break;
+                            }
+                        }
+                        if (notExist) {
+                            features.Add(feat);
+                        }
+                        Invalidate();
+                    }
+                }
+            }
         }
 
         private void TwoPlayerGame_Deactivate(object sender, EventArgs e)
