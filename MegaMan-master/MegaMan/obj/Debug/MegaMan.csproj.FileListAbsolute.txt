@@ -1,0 +1,54 @@
+C:\Users\Tomi\Desktop\Release - Copy (2)\MegaMan-master.1\MegaMan-master\MegaMan\bin\Debug\MegaMan.exe.config
+C:\Users\Tomi\Desktop\Release - Copy (2)\MegaMan-master.1\MegaMan-master\MegaMan\bin\Debug\MegaMan.exe
+C:\Users\Tomi\Desktop\Release - Copy (2)\MegaMan-master.1\MegaMan-master\MegaMan\bin\Debug\MegaMan.pdb
+C:\Users\Tomi\Desktop\Release - Copy (2)\MegaMan-master.1\MegaMan-master\MegaMan\bin\Debug\CircularProgressBar.dll
+C:\Users\Tomi\Desktop\Release - Copy (2)\MegaMan-master.1\MegaMan-master\MegaMan\bin\Debug\WinFormAnimation.dll
+C:\Users\Tomi\Desktop\Release - Copy (2)\MegaMan-master.1\MegaMan-master\MegaMan\bin\Debug\CircularProgressBar.xml
+C:\Users\Tomi\Desktop\Release - Copy (2)\MegaMan-master.1\MegaMan-master\MegaMan\bin\Debug\WinFormAnimation.xml
+C:\Users\Tomi\Desktop\Release - Copy (2)\MegaMan-master.1\MegaMan-master\MegaMan\obj\Debug\MegaMan.csprojAssemblyReference.cache
+C:\Users\Tomi\Desktop\Release - Copy (2)\MegaMan-master.1\MegaMan-master\MegaMan\obj\Debug\MegaMan.Help.resources
+C:\Users\Tomi\Desktop\Release - Copy (2)\MegaMan-master.1\MegaMan-master\MegaMan\obj\Debug\MegaMan.Properties.Resources.resources
+C:\Users\Tomi\Desktop\Release - Copy (2)\MegaMan-master.1\MegaMan-master\MegaMan\obj\Debug\MegaMan.StartGame.resources
+C:\Users\Tomi\Desktop\Release - Copy (2)\MegaMan-master.1\MegaMan-master\MegaMan\obj\Debug\MegaMan.TwoPlayerGame.resources
+C:\Users\Tomi\Desktop\Release - Copy (2)\MegaMan-master.1\MegaMan-master\MegaMan\obj\Debug\MegaMan.TwoPlayers.resources
+C:\Users\Tomi\Desktop\Release - Copy (2)\MegaMan-master.1\MegaMan-master\MegaMan\obj\Debug\MegaMan.csproj.GenerateResource.cache
+C:\Users\Tomi\Desktop\Release - Copy (2)\MegaMan-master.1\MegaMan-master\MegaMan\obj\Debug\MegaMan.csproj.CoreCompileInputs.cache
+C:\Users\Tomi\Desktop\Release - Copy (2)\MegaMan-master.1\MegaMan-master\MegaMan\obj\Debug\MegaMan.csproj.CopyComplete
+C:\Users\Tomi\Desktop\Release - Copy (2)\MegaMan-master.1\MegaMan-master\MegaMan\obj\Debug\MegaMan.exe
+C:\Users\Tomi\Desktop\Release - Copy (2)\MegaMan-master.1\MegaMan-master\MegaMan\obj\Debug\MegaMan.pdb
+C:\Users\Tomi\Documents\Visual Programming Project\MegaMan-master.1\MegaMan-master\MegaMan\bin\Debug\MegaMan.exe.config
+C:\Users\Tomi\Documents\Visual Programming Project\MegaMan-master.1\MegaMan-master\MegaMan\bin\Debug\MegaMan.exe
+C:\Users\Tomi\Documents\Visual Programming Project\MegaMan-master.1\MegaMan-master\MegaMan\bin\Debug\MegaMan.pdb
+C:\Users\Tomi\Documents\Visual Programming Project\MegaMan-master.1\MegaMan-master\MegaMan\bin\Debug\CircularProgressBar.dll
+C:\Users\Tomi\Documents\Visual Programming Project\MegaMan-master.1\MegaMan-master\MegaMan\bin\Debug\WinFormAnimation.dll
+C:\Users\Tomi\Documents\Visual Programming Project\MegaMan-master.1\MegaMan-master\MegaMan\bin\Debug\CircularProgressBar.xml
+C:\Users\Tomi\Documents\Visual Programming Project\MegaMan-master.1\MegaMan-master\MegaMan\bin\Debug\WinFormAnimation.xml
+C:\Users\Tomi\Documents\Visual Programming Project\MegaMan-master.1\MegaMan-master\MegaMan\obj\Debug\MegaMan.csprojAssemblyReference.cache
+C:\Users\Tomi\Documents\Visual Programming Project\MegaMan-master.1\MegaMan-master\MegaMan\obj\Debug\MegaMan.Help.resources
+C:\Users\Tomi\Documents\Visual Programming Project\MegaMan-master.1\MegaMan-master\MegaMan\obj\Debug\MegaMan.Properties.Resources.resources
+C:\Users\Tomi\Documents\Visual Programming Project\MegaMan-master.1\MegaMan-master\MegaMan\obj\Debug\MegaMan.StartGame.resources
+C:\Users\Tomi\Documents\Visual Programming Project\MegaMan-master.1\MegaMan-master\MegaMan\obj\Debug\MegaMan.TwoPlayerGame.resources
+C:\Users\Tomi\Documents\Visual Programming Project\MegaMan-master.1\MegaMan-master\MegaMan\obj\Debug\MegaMan.TwoPlayers.resources
+C:\Users\Tomi\Documents\Visual Programming Project\MegaMan-master.1\MegaMan-master\MegaMan\obj\Debug\MegaMan.csproj.GenerateResource.cache
+C:\Users\Tomi\Documents\Visual Programming Project\MegaMan-master.1\MegaMan-master\MegaMan\obj\Debug\MegaMan.csproj.CoreCompileInputs.cache
+C:\Users\Tomi\Documents\Visual Programming Project\MegaMan-master.1\MegaMan-master\MegaMan\obj\Debug\MegaMan.csproj.CopyComplete
+C:\Users\Tomi\Documents\Visual Programming Project\MegaMan-master.1\MegaMan-master\MegaMan\obj\Debug\MegaMan.exe
+C:\Users\Tomi\Documents\Visual Programming Project\MegaMan-master.1\MegaMan-master\MegaMan\obj\Debug\MegaMan.pdb
+C:\Users\Tomi\Documents\VP_Project\MegaMan-master\MegaMan\bin\Debug\MegaMan.exe.config
+C:\Users\Tomi\Documents\VP_Project\MegaMan-master\MegaMan\bin\Debug\MegaMan.exe
+C:\Users\Tomi\Documents\VP_Project\MegaMan-master\MegaMan\bin\Debug\MegaMan.pdb
+C:\Users\Tomi\Documents\VP_Project\MegaMan-master\MegaMan\bin\Debug\CircularProgressBar.dll
+C:\Users\Tomi\Documents\VP_Project\MegaMan-master\MegaMan\bin\Debug\WinFormAnimation.dll
+C:\Users\Tomi\Documents\VP_Project\MegaMan-master\MegaMan\bin\Debug\CircularProgressBar.xml
+C:\Users\Tomi\Documents\VP_Project\MegaMan-master\MegaMan\bin\Debug\WinFormAnimation.xml
+C:\Users\Tomi\Documents\VP_Project\MegaMan-master\MegaMan\obj\Debug\MegaMan.csprojAssemblyReference.cache
+C:\Users\Tomi\Documents\VP_Project\MegaMan-master\MegaMan\obj\Debug\MegaMan.Help.resources
+C:\Users\Tomi\Documents\VP_Project\MegaMan-master\MegaMan\obj\Debug\MegaMan.Properties.Resources.resources
+C:\Users\Tomi\Documents\VP_Project\MegaMan-master\MegaMan\obj\Debug\MegaMan.StartGame.resources
+C:\Users\Tomi\Documents\VP_Project\MegaMan-master\MegaMan\obj\Debug\MegaMan.TwoPlayerGame.resources
+C:\Users\Tomi\Documents\VP_Project\MegaMan-master\MegaMan\obj\Debug\MegaMan.TwoPlayers.resources
+C:\Users\Tomi\Documents\VP_Project\MegaMan-master\MegaMan\obj\Debug\MegaMan.csproj.GenerateResource.cache
+C:\Users\Tomi\Documents\VP_Project\MegaMan-master\MegaMan\obj\Debug\MegaMan.csproj.CoreCompileInputs.cache
+C:\Users\Tomi\Documents\VP_Project\MegaMan-master\MegaMan\obj\Debug\MegaMan.csproj.CopyComplete
+C:\Users\Tomi\Documents\VP_Project\MegaMan-master\MegaMan\obj\Debug\MegaMan.exe
+C:\Users\Tomi\Documents\VP_Project\MegaMan-master\MegaMan\obj\Debug\MegaMan.pdb
